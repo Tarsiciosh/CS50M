@@ -1,5 +1,5 @@
-function doSomethingAsync (seconds, callback) {
-  setTimeout(function (){callback(seconds)}, seconds * 1000)
+function doSomethingAsync (secs, callback) {
+  setTimeout(function (){callback(secs)}, secs * 1000)
 }
 // callback
 // callback is inmediately invoked if it is not passed as an anonimous function

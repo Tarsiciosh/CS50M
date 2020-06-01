@@ -1,6 +1,6 @@
 // this creates the same closure as in 1-closureExample.js, but doesn't pollute
 // the global scope with a function called makeHelloFunction like that example
-const sayHello = (function () {
+const mySayHello = (function () {
   var message = 'Hello!'
 
   function sayHello() {
@@ -9,6 +9,8 @@ const sayHello = (function () {
 
   return sayHello
 })()
+
+mySayHello() //tar: invoking the function
 
 // IIFEs can also be used to create variables that are inaccessible from the global
 // scope

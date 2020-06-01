@@ -7,7 +7,7 @@ doSomethingWithOne(console.log)
 
 // this is the same thing, but done asynchronously
 function doSomethingWithOneAsync(callback) {
-  setTimeout(() => callback(1), 1000)
+  setTimeout( () => callback(1) , 1000)
 }
 
 doSomethingWithOneAsync(console.log)
