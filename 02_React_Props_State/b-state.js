@@ -34,7 +34,7 @@ class App extends React.Component {
 
 render(<App />, document.getElementById('root'))
 
-// 
+// to take the previous state
 //increaseCount (){
 //   this.setState( prevState => ({count : prevState.count + 1 }))
 //   this.setState( prevState => ({count : prevState.count + 1 }))

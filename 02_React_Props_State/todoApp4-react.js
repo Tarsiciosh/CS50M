@@ -11,17 +11,6 @@ const Todo = props => (
   </li>
 )
 
-// upper case Todo is a react component
-
-const Todo = props => (
-  <li>
-    <input type="checkbox">
-    <button>delete</button>
-    <span>{props.text}</span>
-  </li>
-)
-
-
 class App extends React.Component {
   constructor() {
     super()
@@ -29,35 +18,6 @@ class App extends React.Component {
       todos: [],
     }
   }
-
-/*
-  render() {
-    return (
-      <div>
-        <ul>
-          {this.state.todos.map(todo =>
-            <Todo todo={todo} />
-          ) }
-        </ul>
-      </div>
-    )
-  }
-*/
-  render() {
-    return (
-      <div>
-        <ul>
-          {this.state.todos.map(todo => <Todo todo={todo}/>)}
-        </ul>
-      </div>
-    )
-  }
-
-
-
-
-
-
 
   addTodo() {
     const text = prompt("TODO text please!")
