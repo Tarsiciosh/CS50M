@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-
 let id = 0
 
 const Todo = props => (
