@@ -44,7 +44,7 @@ class App extends React.Component {
     })
   }
 
-/*
+/* // lecture way to do the toggleTodo function
   toggleTodo(id){
     this.setState({
       todos: this.state.todos.map (todo => {
