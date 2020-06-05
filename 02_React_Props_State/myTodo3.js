@@ -24,7 +24,7 @@ class App extends React.Component {
     this.setState({
       todos: [
         ...this.state.todos,
-        {id: id++, text: text}
+        {id: id++, text: text , checked: false}
       ],
     })
   }
