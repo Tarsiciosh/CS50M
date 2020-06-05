@@ -6,8 +6,11 @@ function makeFunctionArray() {
   for (var i = 0; i < 5; i++) {
     arr.push( (function (x) {
       return function () { console.log(x) }
-    })(i) ) 
+    })(i) )
   }
+
+  // Tar - it pushes the result of a funtion that is invoked in that moment
+  // the result is a "compiled" function
 
   return arr
 }

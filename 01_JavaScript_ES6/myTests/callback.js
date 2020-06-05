@@ -3,6 +3,9 @@ function doSomethingAsync (secs, callback) {
 }
 // callback
 // callback is inmediately invoked if it is not passed as an anonimous function
+
+
+
 doSomethingAsync (2, function(seconds){
   console.log("hello after " + seconds + " s" )
 })

@@ -2,15 +2,15 @@
 function doSomethingWithOne(callback) {
   return callback(1)
 }
-
 doSomethingWithOne(console.log)
+
 
 // this is the same thing, but done asynchronously
 function doSomethingWithOneAsync(callback) {
   setTimeout( () => callback(1) , 1000)
 }
-
 doSomethingWithOneAsync(console.log)
+
 
 // this simulates a database call that returns an object representing a person
 function getUserFromDatabase(callback) {
