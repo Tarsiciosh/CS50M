@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import CustomCount from './Count.js'
+import CustomCount, {num} from './Count.js'
 
 export default class App extends React.Component {
   render() {
